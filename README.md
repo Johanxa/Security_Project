@@ -10,7 +10,7 @@ Voici les différentes étapes que nous avons suivi afin de réaliser ce BOT.
 
 Step1: Afin d'utiliser les API de Twitter nous devions d'abord créer un compte de developer twitter via https://developer.twitter.com/ .
 Step2: Une fois avoir créé notre compte twitter et twitter developer, nous avons premièrement créer notre projet de BOT, activer OAuth 1.0a et modifier les permissions en "Read and write and access Direct Messages" (Sans cette autorisation, le bot ne pourra pas agir et aura uniquement la lecture des tweets)
-Step3: Création des clés, et du fichiers credentials qui contenait nos clés et permettait donc notre authentification.
+Step3: Re-génér tion des clés selon les nouvelles permissions données, et du fichiers credentials qui contenait nos clés et permettait donc notre authentification.
 Le projet se consitute de 3 fichiers : 
 le premier permet d'injecter les clés d'authentification au compte.
 le deuxième permet de définir les hashtags, le follow et like du tweet.
